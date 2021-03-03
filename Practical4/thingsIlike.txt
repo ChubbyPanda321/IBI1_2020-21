@@ -1,4 +1,21 @@
+I like Minecraft.
+I like chocolate.
+I dont like earth.
+I like biology.
+<<<<<<< HEAD
+I like girl.
+I like sleep.
+I like exploring the unknown very much.
+I like cake.
+I like anime.
+=======
+I like snow.
+I like sleep.
+I like exploring the unknown.
+I like a.
+I like b.
+I like c.
+I like d.
+I like e.
 
-I like talk radio
-I like snow
-I like biscuits
+>>>>>>> Kesu
