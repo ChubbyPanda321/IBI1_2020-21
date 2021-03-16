@@ -2,14 +2,13 @@
 import matplotlib.pyplot as plt
 #define a function so it's easier to use later
 def mkplot_infection_rate(**case):  
-    fig, ax = plt.subplots()
-    ax.pie(
+    plt.pie(
         case.values(),
         labels = case.keys(),
         autopct = '%1.1f%%',
         shadow = True
         )
-    ax.axis('equal')
+    plt.axis('equal')
     plt.title('Infected cases by countries\n')
     plt.show()
     return case
