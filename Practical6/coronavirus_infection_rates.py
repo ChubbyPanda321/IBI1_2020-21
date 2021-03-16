@@ -10,6 +10,7 @@ def mkplot_infection_rate(**case):
         shadow = True
         )
     ax.axis('equal')
+    plt.title('Infected cases by countries\n')
     plt.show()
     return case
 #use the function to create to plot
