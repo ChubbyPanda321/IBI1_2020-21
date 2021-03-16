@@ -11,12 +11,14 @@ def mkplot_infection_rate(**case):
         )
     ax.axis('equal')
     plt.show()
+    return case
 #use the function to create to plot
-mkplot_infection_rate(
+cases = mkplot_infection_rate(
     USA = 29862124,
     India = 11285561,
     Brazil = 11205972,
     Russia = 4360823,
     UK = 4234924
     )
-
+#print the dict of the infected cases
+print(cases)
