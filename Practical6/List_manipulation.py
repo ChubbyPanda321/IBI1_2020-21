@@ -13,6 +13,8 @@ print(average_exon_length)
 plt.boxplot(
     average_exon_length,
     notch=False,
+    patch_artist=True,
+    boxprops={'facecolor':'lightgreen'}
     )
 plt.ylabel('Length / bp')
 plt.xticks([])
