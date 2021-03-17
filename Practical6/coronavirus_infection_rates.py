@@ -8,7 +8,7 @@ def mkplot_infection_rate(**case):
         autopct = '%1.1f%%',
         shadow = True,
         textprops = {'color':'w'},
-        
+        startangle = 90
     )
     plt.legend(title = 'countries',
         loc = 'center left',
