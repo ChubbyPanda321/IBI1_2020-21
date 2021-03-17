@@ -6,10 +6,16 @@ def mkplot_infection_rate(**case):
         case.values(),
         labels = case.keys(),
         autopct = '%1.1f%%',
-        shadow = True
-        )
+        shadow = True,
+        textprops = {'color':'w'},
+        
+    )
+    plt.legend(title = 'countries',
+        loc = 'center left',
+        bbox_to_anchor = (-0.1,0,0.5,1)
+    )
     plt.axis('equal')
-    plt.title('Infected cases by countries\n')
+    plt.title('Infected cases by countries')
     plt.show()
     return case
 #use the function to create to plot
