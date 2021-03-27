@@ -49,5 +49,5 @@ plt.legend()
 plt.title('WORLD NEW CASES AND DEATHS OF COVID19')
 plt.show()
 # places in the World where there have not yet been more than 10 total infections(as of 31 March)
-low_cases_places = covid_data.loc[(covid_data['date']=='2020-03-31') & (covid_data['total_cases']<=100000),'location']
+low_cases_places = covid_data.loc[(covid_data['date']=='2020-03-31') & (covid_data['total_cases']<=10),'location']
 print(low_cases_places)
