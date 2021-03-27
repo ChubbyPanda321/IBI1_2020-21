@@ -5,195 +5,45 @@ line number = 51
 Yes, they are shown below. 
 On trial and error, I found that using a graph is not as clear as listing the countries directly, so I just listed them here.
 
-Afghanistan
-Albania
-Algeria
-Andorra
-Angola
-Anguilla
-Antigua and Barbuda
-Argentina
-Armenia
-Australia
-Austria
-Azerbaijan
-Bahamas
-Bahrain
-Bangladesh
-Barbados
-Belarus
-Belgium
-Belize
-Benin
-Bermuda
-Bhutan
-Bolivia
-Bosnia and Herzegovina
-Brazil
-British Virgin Islands
-Brunei
-Bulgaria
-Burkina Faso
-Cambodia
-Cameroon
-Canada
-Cape Verde
-Cayman Islands
-Central African Republic
-Chad
-Chile
-China
-Colombia
-Congo
-Costa Rica
-Cote d'Ivoire
-Croatia
-Cuba
-Cyprus
-Czech Republic
-Democratic Republic of Congo
-Denmark
-Djibouti
-Dominica
-Dominican Republic
-Ecuador
-Egypt
-El Salvador
-Equatorial Guinea
-Eritrea
-Estonia
-Ethiopia
-Faeroe Islands
-Falkland Islands
-Fiji
-Finland
-France
-French Polynesia
-Gabon
-Gambia
-Georgia
-Germany
-Ghana
-Gibraltar
-Greece
-Greenland
-Grenada
-Guam
-Guatemala
-Guernsey
-Guinea
-Guinea-Bissau
-Guyana
-Haiti
-Honduras
-Hungary
-Iceland
-India
-Indonesia
-Iran
-Iraq
-Ireland
-Isle of Man
-Israel
-Jamaica
-Japan
-Jersey
-Jordan
-Kazakhstan
-Kenya
-Kosovo
-Kuwait
-Kyrgyzstan
-Laos
-Latvia
-Lebanon
-Liberia
-Libya
-Liechtenstein
-Lithuania
-Luxembourg
-Macedonia
-Madagascar
-Malaysia
-Maldives
-Mali
-Malta
-Mariana Islands
-Mauritania
-Mauritius
-Mexico
-Moldova
-Monaco
-Mongolia
-Montenegro
-Montserrat
-Morocco
-Mozambique
-Myanmar
-Namibia
-Nepal
-Netherlands
-New Caledonia
-New Zealand
-Nicaragua
-Niger
-Nigeria
-Norway
-Oman
-Pakistan
-Palestine
-Panama
-Papua New Guinea
-Paraguay
-Peru
-Philippines
-Poland
-Portugal
-Puerto Rico
-Qatar
-Romania
-Russia
-Rwanda
-Saint Kitts and Nevis
-Saint Lucia
-Saint Vincent and the Grenadines
-San Marino
-Saudi Arabia
-Senegal
-Serbia
-Seychelles
-Singapore
-Slovakia
-Slovenia
-Somalia
-South Africa
-South Korea
-South Sudan
-Spain
-Sri Lanka
-Sudan
-Suriname
-Swaziland
-Sweden
-Switzerland
-Syria
-Taiwan
-Tanzania
-Thailand
-Timor
-Togo
-Trinidad and Tobago
-Tunisia
-Turkey
-Turks and Caicos Islands
-Uganda
-Ukraine
-United Arab Emirates
-United Kingdom
-Uruguay
-Uzbekistan
-Vatican
-Venezuela
-Vietnam
-Zambia
-Zimbabwe
+219                               Angola
+224                             Anguilla
+236                  Antigua and Barbuda
+942                               Belize
+957                                Benin
+987                               Bhutan
+1119              British Virgin Islands
+1386                          Cape Verde
+1414            Central African Republic
+1426                                Chad
+2399                    Falkland Islands
+2411                                Fiji
+2621                               Gabon
+2635                              Gambia
+2948                           Greenland
+2957                             Grenada
+3021                       Guinea-Bissau
+3038                              Guyana
+4192                                Laos
+4320                             Liberia
+4327                               Libya
+4752                     Mariana Islands
+4769                          Mauritania
+5008                          Montserrat
+5039                          Mozambique
+5144                               Nepal
+5343                           Nicaragua
+5757                    Papua New Guinea
+6236               Saint Kitts and Nevis
+6253                         Saint Lucia
+6261    Saint Vincent and the Grenadines
+6439                          Seychelles
+6602                             Somalia
+6719                         South Sudan
+6912                               Sudan
+6924                            Suriname
+6941                           Swaziland
+7134                               Syria
+7334                               Timor
+7419            Turks and Caicos Islands
+7774                             Vatican
+7995                            Zimbabwe
