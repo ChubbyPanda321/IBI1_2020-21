@@ -12,11 +12,12 @@ for line in allcdna:
     if line.startswith('>'):
         getnextseq = True
         if 'unknown function' in line:
-            getnextseq = False
-            length = len(seq) - seqlinenum
-            output.write(f'{name:20}'+str(length)+'\n'+seq)
+            if seqlinenum != 0:
+                length = len(seq) - seqlinenum
+                output.write(f'{name:20}'+str(length)+'\n'+seq)
             name = re.search(r'(?<=\bgene:)\w+', line).group()
             seq, seqlinenum = '', 0
+            getnextseq = False
     elif not getnextseq:
         seqlinenum += 1
         seq += line
