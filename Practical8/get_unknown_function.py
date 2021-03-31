@@ -2,7 +2,7 @@ import os, re
 os.chdir('D:\ZJU\IBI\python\IBI1_2020-21\Practical8')
 with open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa') as allcdna:
     with open('unknown_function.fa','w') as output:
-        seq = ''
+        seq, getnextseq = '',False
         for line in allcdna:
             if line.startswith('>'):
                 getnextseq = False
