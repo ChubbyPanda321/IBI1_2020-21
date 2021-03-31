@@ -4,10 +4,6 @@ os.chdir('D:\ZJU\IBI\python\IBI1_2020-21\Practical8')
 allcdna = open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa')
 output = open('unknown_function.fa','w')
 seqlinenum = 0
-seq = ''
-getnextseq = False
-name = ''
-length = 0
 for line in allcdna:
     if line.startswith('>'):
         getnextseq = True
@@ -21,8 +17,6 @@ for line in allcdna:
     elif not getnextseq:
         seqlinenum += 1
         seq += line
-
 output.write(f'{name:20}'+str(length)+'\n'+seq)
-
 allcdna.close()
 output.close()
