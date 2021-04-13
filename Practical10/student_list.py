@@ -8,7 +8,7 @@ class Student(object):
         else:
             raise ValueError('Our institute does not have a programme called %s.'%programme)
     def info(self):
-        print(self.first_name, self.last_name, self.programme)
+        print('Name:', self.first_name, f'{self.last_name:15}', 'Programme:', self.programme)
 
 studentA = Student('San', 'ZHANG', 'BMI')
 studentA.info()
