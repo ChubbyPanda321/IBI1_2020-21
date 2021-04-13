@@ -6,6 +6,7 @@ def rev_compl(seq:str) -> str:
     '''
     return seq.upper().replace('A', 't').replace('T', 'a').replace('C', 'g').replace('G', 'c').upper()[::-1]
 
+# example
 seq = 'ACcCaTtG'
 rev_compl_seq = rev_compl(seq)
 print(rev_compl_seq)

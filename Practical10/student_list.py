@@ -10,5 +10,9 @@ class Student(object):
     def info(self):
         print('Name:', self.first_name, f'{self.last_name:15}', 'Programme:', self.programme)
 
+# example 0
 studentA = Student('San', 'ZHANG', 'BMI')
 studentA.info()
+
+# example 1 This example can show the ability to exclude unknown programme name and rasie a ValueError.
+# studentB = Student('Si', 'LI', 'ECE')
