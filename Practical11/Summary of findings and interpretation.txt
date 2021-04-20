@@ -1,0 +1,22 @@
+#____________________THE FINDINGS____________________#
+Human-Mouse:
+    Alignment score: 1091
+    Average score per amino acid: 4.91
+    Percentage of identical	amino acids: 89.64%
+
+Human-Random:
+    Alignment score: -250
+    Average score per amino acid: -1.13
+    Percentage of identical	amino acids: 5.41%
+
+Mouse-Random:
+    Alignment score: -250
+    Average score per amino acid: -1.13
+    Percentage of identical	amino acids: 5.86%
+
+NOTE: Average score per amino acid is a way I think is meaningful to compare the similarity between proteins of different length.
+
+#_________________THE INTERPRETATION_________________#
+The result shows that mice and human have highly similar SOD2 protein. 
+This may suggest that mice and us are evolutionarily similar. Our ancestors and the ancestors of mice separated late in their evolution.
+So, in many cases, mice can be a good animal model to research human diseases.
