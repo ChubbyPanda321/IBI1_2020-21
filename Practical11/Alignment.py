@@ -26,12 +26,15 @@ def pairwisw_global_alignment(seq1,seq2,seq1_name,seq2_name):
     count = 0
     print_alignment = ''
     for aa1, aa2 in zip(seq1, seq2):
-        score += BLOSUM62_dict[(aa1,aa2)]
+        vector = BLOSUM62_dict[(aa1,aa2)]
+        score += vector
         if aa1 == aa2:
             count += 1
             print_alignment += aa1
+        elif vector > 0:
+            print_alignment += '+'
         else:
-            print_alignment += '*'
+            print_alignment += ' '
     print(seq1_name+':\n'+seq1)
     print('Alignment:\n'+print_alignment)
     print(seq2_name+':\n'+seq2)
