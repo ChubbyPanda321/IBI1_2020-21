@@ -1,0 +1,10 @@
+Reflections about Practical4
+
+Problems:
+    1. Merge conflict occur when I tried to merge 2 branch.
+        Solution: I fixed the conflict manully and merged successfully.
+    2. Network problems prevented me from using "git clone" and "git push".
+        Solution: Download the files from the server and upload them using VPN.
+
+Summary:
+    I learned how to use git and improved my online searching skill.
